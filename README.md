@@ -2,6 +2,8 @@
 
 #### Um relógio analogico, projeto bem legal e bem simples que combina lógica e matemática.
 
+<p>Para ver o projeto funcionando <a href="https://1marcosaquino.github.io/relogio/" target="_blank">clique aqui!</a></p>
+
 ## O que foi usado nesse projeto
 
 <div>
