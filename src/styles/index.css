@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: #0490fb;
+    background: linear-gradient(134deg, #0490fb, 39%, #e100ff 84%);
+    background: -moz-linear-gradient(134deg, #0490fb 39%, #e100ff 84%);
+    background: -webkit-linear-gradient(134deg, #e100ff 39%, #0490fb 84%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerClock {
+    position: relative;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 100%;
+    background: #0490fb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 0px 50px 0px #08080850;
+    -moz-box-shadow: 0px 0px 50px 0px #08080850;
+    box-shadow: 0px 0px 50px 0px #08080850;
+}
+
+.pointers {
+    position: absolute;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 50px 0px #08080850;
+    -moz-box-shadow: 0px 0px 50px 0px #08080850;
+    box-shadow: 0px 0px 50px 0px #08080850;
+
+    transform: rotate(0deg);
+
+    bottom: 50%;
+    left: 50%;
+
+    transform: translateX(-50%);
+    transform-origin: bottom;
+}
+
+.second {
+    background-color: #e100ff;
+    width: 0.3vh;
+    height: 19.5vh;
+}
+.minute {
+    background: #000;
+    width: 0.35vh;
+    height: 18vh;
+}
+.hour {
+    background: #000;
+    width: 0.5vh;
+    height: 16.5vh;
+}
+.pointer {
+    position: absolute;
+    background-color: #e100ff;
+    border-radius: 100%;
+    width: 2.5vh;
+    height: 2.5vh;
+}
+
+.number {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 49.5vh;
+    font-weight: bold;
+}
+.number > div {
+    justify-self: space-between;
+}
+.part1 {
+    transform: rotate(0deg);
+}
+
+.part2 {
+    transform: rotate(30deg);
+}
+.part2 > div {
+    transform: rotate(-30deg);
+}
+
+.part3 {
+    transform: rotate(60deg);
+}
+.part3 > div {
+    transform: rotate(-60deg);
+}
+
+.part4 {
+    transform: rotate(-90deg);
+}
+.part4 > div {
+    transform: rotate(90deg);
+}
+
+.part5 {
+    transform: rotate(-60deg);
+}
+.part5 > div {
+    transform: rotate(60deg);
+}
+
+.part6 {
+    transform: rotate(-30deg);
+}
+.part6 > div {
+    transform: rotate(30deg);
+}
