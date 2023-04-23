@@ -1,6 +1,6 @@
 # Relógio
 
-#### Um relógio analogico um projeto bem legal e bem simples que combina lógica e matemática.
+#### Um relógio analogico, projeto bem legal e bem simples que combina lógica e matemática.
 
 ## O que foi usado nesse projeto
 
