@@ -3,7 +3,7 @@
 #### Um relógio analogico, projeto bem legal e bem simples que combina lógica e matemática.
 
 
-Para ver o projeto funcionando [clique aqui!](https://github.com/1MarcosAquino/Relogio)
+Para ver o projeto funcionando [clique aqui!](https://1marcosaquino.github.io/Relogio/)
 
 ## O que foi usado nesse projeto
 
